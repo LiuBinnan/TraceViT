@@ -1,0 +1,10 @@
+# local-only tests (not part of the public release)
+tests/
+
+# visualizer output
+steps_viz_*/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
