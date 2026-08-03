@@ -1,10 +1,8 @@
 # TraceViT
 
-<!-- TODO(paper): fill in the arXiv badge link once the paper is public. -->
-
 **TraceViT: Grounded Trace Supervision for Visual Abstract Reasoning**
 
-[![arXiv](https://img.shields.io/badge/arXiv-TODO-b31b1b.svg)](https://arxiv.org/abs/TODO)
+[![arXiv](https://img.shields.io/badge/arXiv-2607.29586-b31b1b.svg)](https://arxiv.org/abs/2607.29586)
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-arc--steps-blue)](https://huggingface.co/datasets/lbn32/arc-steps)
 
 ## The `arc-steps` dataset
