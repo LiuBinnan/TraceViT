@@ -1,0 +1,19 @@
+{
+  "task_id": "995c5fa3",
+  "trace_seed": 2025,
+  "save_vars": [
+    "output"
+  ],
+  "checkpoints": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "category": "selectable",
+  "group": "shangse",
+  "schema_version": 3
+}

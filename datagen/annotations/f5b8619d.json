@@ -1,0 +1,13 @@
+{
+  "task_id": "f5b8619d",
+  "trace_seed": 444444,
+  "save_vars": [
+    "output"
+  ],
+  "checkpoints": [
+    3,
+    4
+  ],
+  "category": "selectable",
+  "schema_version": 2
+}

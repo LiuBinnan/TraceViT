@@ -1,0 +1,14 @@
+{
+  "task_id": "ecdecbb3",
+  "trace_seed": 77,
+  "save_vars": [
+    "output"
+  ],
+  "checkpoints": [
+    11,
+    12
+  ],
+  "category": "selectable",
+  "group": "other2",
+  "schema_version": 3
+}

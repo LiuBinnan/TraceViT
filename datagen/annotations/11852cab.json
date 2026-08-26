@@ -1,0 +1,12 @@
+{
+  "task_id": "11852cab",
+  "trace_seed": 345,
+  "save_vars": [
+    "output"
+  ],
+  "checkpoints": [
+    10
+  ],
+  "category": "selectable",
+  "schema_version": 2
+}

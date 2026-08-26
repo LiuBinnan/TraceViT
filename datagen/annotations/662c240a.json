@@ -1,0 +1,15 @@
+{
+  "task_id": "662c240a",
+  "trace_seed": 2025,
+  "save_vars": [
+    "output"
+  ],
+  "checkpoints": [
+    8,
+    9,
+    10
+  ],
+  "category": "selectable",
+  "group": "duijiao",
+  "schema_version": 3
+}

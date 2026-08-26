@@ -1,0 +1,15 @@
+{
+  "task_id": "46442a0e",
+  "trace_seed": 2025,
+  "save_vars": [
+    "output"
+  ],
+  "checkpoints": [
+    5,
+    6,
+    7
+  ],
+  "category": "selectable",
+  "group": "xuanzhuan1",
+  "schema_version": 3
+}

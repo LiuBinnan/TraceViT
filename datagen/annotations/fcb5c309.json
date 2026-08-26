@@ -1,0 +1,14 @@
+{
+  "task_id": "fcb5c309",
+  "trace_seed": 2025,
+  "save_vars": [
+    "output"
+  ],
+  "checkpoints": [
+    5,
+    7
+  ],
+  "category": "selectable",
+  "group": "mask",
+  "schema_version": 3
+}

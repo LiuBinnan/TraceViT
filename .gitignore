@@ -1,5 +1,5 @@
 # local-only tests (not part of the public release)
-tests/
+/tests/
 
 # visualizer output
 steps_viz_*/

@@ -13,19 +13,19 @@
 | `arcgen_v2` | 500 | 487,091 | 486,091 | ARC-GEN generators, ARC-AGI-2 training tasks |
 | `rearc` | 400 | 399,871 | 270,854 | RE-ARC generators + step-decomposed solver programs, ARC-AGI-1 training tasks |
 
-- grids are `int[][]` with values 0–9, at most 30×30;
-- a record is traced iff `steps` is non-empty; **the last step equals `output`**,
-  and intermediate grids may differ in size from the output;
+- grids are `int[][]` with values 0-9, at most 30×30.
+- a record is traced iff `steps` is non-empty. **The last step equals `output`**,
+  and intermediate grids may differ in size from the output.
 - `arcgen_v2` records additionally carry a `rule` text describing the task's
-  transformation, summarized by Claude Opus 4.8 without human review — not
-  guaranteed to be correct;
-- all records are synthetic — no official ARC grids are included.
+  transformation, summarized by Claude Opus 4.8 without human review and not
+  guaranteed to be correct.
+- all records are synthetic. No official ARC grids are included.
 
 ### Browsing the chains
 
 `visualize_steps.py` renders one config as a
-static site — an index page with a task search box, one page per task, records
-drawn as input → steps → output filmstrips:
+static site: a searchable task index, plus one page per task with records drawn
+as input → steps → output filmstrips.
 
 ```bash
 # grab one config's raw jsonl (~1 GB each)
@@ -38,15 +38,24 @@ python visualize_steps.py data/rearc/train.jsonl
 `--tasks` renders a subset, `--records-per-task` sets how many records each task
 page shows (default 10), `--out-dir` overrides the output directory.
 
+## Regenerating the data (`datagen/`)
+
+[`datagen/`](datagen/) contains the generation pipeline behind the `arcgen_v1`
+config: the 400 ARC-AGI-1 ARC-GEN generators rewritten into single-action
+steps, the per-task checkpoint annotations, and the tracing/synthesis framework
+that turns them into `{input, steps, output}` records. See
+[`datagen/README.md`](datagen/README.md) for usage. The ARC-AGI-2 generators and
+the re-arc rewrites are not released yet.
+
 ## Acknowledgements
 
 TraceViT builds on, and is grateful to, the following projects:
 
-- [RE-ARC](https://github.com/michaelhodel/re-arc) — procedural generators and
-  solver programs behind the `rearc` config;
-- [ARC-GEN](https://github.com/google/ARC-GEN) — procedural generators behind the
-  `arcgen_v1` / `arcgen_v2` configs;
-- [VARC](https://github.com/lillian039/VARC) (*ARC Is a Vision Problem!*) — the
-  training and test-time-training (TTT) framework that TraceViT builds on;
+- [RE-ARC](https://github.com/michaelhodel/re-arc): procedural generators and
+  solver programs behind the `rearc` config.
+- [ARC-GEN](https://github.com/google/ARC-GEN): procedural generators behind the
+  `arcgen_v1` / `arcgen_v2` configs (`datagen/` is derived from it).
+- [VARC](https://github.com/lillian039/VARC) (*ARC Is a Vision Problem!*): the
+  training and test-time-training (TTT) framework that TraceViT builds on.
 - [LoopViT](https://github.com/WenjieShu/LoopViT) (*Scaling Visual ARC with Looped
-  Transformers*) — the looped-transformer backbone that TraceViT extends.
+  Transformers*): the looped-transformer backbone that TraceViT extends.
