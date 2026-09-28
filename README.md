@@ -39,7 +39,7 @@ python visualize_steps.py data/rearc/train.jsonl
 records each task page shows (default 10), and `--out-dir` changes the output
 directory.
 
-## Regenerating the data (`datagen/`, `rearc/`)
+## Regenerating the data
 
 [`datagen/`](datagen/) holds the pipeline behind the `arcgen_v1` and
 `arcgen_v2` configs: the ARC-GEN generators for 400 ARC-AGI-1 and 500
