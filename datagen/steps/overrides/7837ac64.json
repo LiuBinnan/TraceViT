@@ -1,0 +1,56 @@
+{
+  "kwargs": {
+    "boxh": {
+      "type": "int",
+      "range": [
+        2,
+        6
+      ]
+    },
+    "boxw": {
+      "type": "int",
+      "range": [
+        2,
+        6
+      ]
+    },
+    "scaleh": {
+      "type": "int",
+      "range": [
+        2,
+        8
+      ]
+    },
+    "scalew": {
+      "type": "int",
+      "range": [
+        2,
+        8
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    },
+    "occ_count": {
+      "type": "int",
+      "range": [
+        1,
+        36
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "spacing",
+    "linecolor",
+    "brow",
+    "bcol",
+    "colors",
+    "gh",
+    "gw"
+  ]
+}

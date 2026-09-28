@@ -1,0 +1,27 @@
+{
+  "exclude": [
+    "size",
+    "height",
+    "width",
+    "rows",
+    "cols",
+    "lengths",
+    "colors"
+  ],
+  "kwargs": {
+    "object_count": {
+      "type": "int",
+      "range": [
+        1,
+        22
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        2,
+        9
+      ]
+    }
+  }
+}

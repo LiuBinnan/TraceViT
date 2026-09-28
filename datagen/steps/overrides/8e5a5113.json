@@ -1,0 +1,14 @@
+{
+  "kwargs": {
+    "size": {
+      "type": "int",
+      "range": [
+        2,
+        14
+      ]
+    }
+  },
+  "exclude": [
+    "num"
+  ]
+}

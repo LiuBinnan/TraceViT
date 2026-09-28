@@ -1,0 +1,46 @@
+{
+  "include_only": [
+    "height",
+    "width",
+    "num",
+    "num_colors",
+    "noise_count"
+  ],
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        2,
+        10
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        2,
+        10
+      ]
+    },
+    "num": {
+      "type": "int",
+      "range": [
+        1,
+        100
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    },
+    "noise_count": {
+      "type": "int",
+      "range": [
+        0,
+        8
+      ]
+    }
+  }
+}

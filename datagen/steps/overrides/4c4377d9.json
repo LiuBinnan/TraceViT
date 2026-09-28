@@ -1,0 +1,38 @@
+{
+  "kwargs": {
+    "num_colors": {
+      "type": "int",
+      "range": [
+        0,
+        9
+      ]
+    },
+    "density": {
+      "type": "int",
+      "range": [
+        0,
+        100
+      ]
+    },
+    "shape_id": {
+      "type": "int",
+      "range": [
+        0,
+        449
+      ]
+    },
+    "shape_jitter": {
+      "type": "int",
+      "range": [
+        0,
+        449
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols",
+    "width",
+    "height"
+  ]
+}

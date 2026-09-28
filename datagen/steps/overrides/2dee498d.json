@@ -1,0 +1,9 @@
+{
+  "exclude": [
+    "size",
+    "height",
+    "width",
+    "colors",
+    "flip_middle"
+  ]
+}

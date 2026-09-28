@@ -1,0 +1,63 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        11,
+        30
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        11,
+        30
+      ]
+    },
+    "obj_height": {
+      "type": "int",
+      "range": [
+        2,
+        4
+      ]
+    },
+    "obj_width": {
+      "type": "int",
+      "range": [
+        2,
+        4
+      ]
+    },
+    "density": {
+      "type": "int",
+      "range": [
+        0,
+        16
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    },
+    "num_directions": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "rows",
+    "cols",
+    "srow",
+    "scol",
+    "rdirs",
+    "cdirs",
+    "colors"
+  ]
+}

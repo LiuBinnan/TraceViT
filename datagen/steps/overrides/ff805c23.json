@@ -1,0 +1,46 @@
+{
+  "kwargs": {
+    "cutout_h": {
+      "type": "int",
+      "range": [
+        1,
+        30
+      ]
+    },
+    "cutout_w": {
+      "type": "int",
+      "range": [
+        1,
+        15
+      ]
+    },
+    "grid_size": {
+      "type": "int",
+      "range": [
+        6,
+        30
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    },
+    "density": {
+      "type": "int",
+      "range": [
+        0,
+        120
+      ]
+    }
+  },
+  "exclude": [
+    "colors",
+    "brow",
+    "bcol",
+    "size",
+    "cutout"
+  ]
+}

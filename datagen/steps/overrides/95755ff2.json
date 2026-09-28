@@ -1,0 +1,23 @@
+{
+  "kwargs": {
+    "density": {
+      "type": "int",
+      "range": [
+        9,
+        29
+      ]
+    }
+  },
+  "exclude": [
+    "tops",
+    "bottoms",
+    "rows",
+    "cols",
+    "color",
+    "flop",
+    "xpose"
+  ],
+  "foreground_freeze": [
+    2
+  ]
+}

@@ -1,3 +1,6 @@
 [submodule "datagen/external/ARC-AGI"]
 	path = datagen/external/ARC-AGI
 	url = https://github.com/fchollet/ARC-AGI.git
+[submodule "datagen/external/ARC-AGI-2"]
+	path = datagen/external/ARC-AGI-2
+	url = https://github.com/arcprize/ARC-AGI-2.git

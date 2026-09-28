@@ -1,0 +1,22 @@
+{
+  "kwargs": {
+    "copies": {
+      "type": "int",
+      "range": [
+        2,
+        4
+      ]
+    },
+    "vertical_margin": {
+      "type": "int",
+      "range": [
+        0,
+        3
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": []
+}

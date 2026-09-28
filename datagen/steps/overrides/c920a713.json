@@ -1,0 +1,15 @@
+{
+  "exclude": [
+    "size",
+    "widths",
+    "heights",
+    "rows",
+    "cols",
+    "colors",
+    "extra_row",
+    "extra_col",
+    "extra_color"
+  ],
+  "foreground_freeze": [],
+  "kwargs": {}
+}

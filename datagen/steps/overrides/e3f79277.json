@@ -1,0 +1,10 @@
+{
+  "exclude": [
+    "length",
+    "color",
+    "flip",
+    "flop"
+  ],
+  "foreground_freeze": [],
+  "background_recolor": "any"
+}

@@ -1,0 +1,16 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "width",
+    "height",
+    "bgcolor",
+    "fgcolor",
+    "length",
+    "spacing",
+    "colors"
+  ],
+  "foreground_freeze": [
+    6
+  ],
+  "background_recolor": "any"
+}

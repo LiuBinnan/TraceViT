@@ -1,0 +1,21 @@
+{
+  "kwargs": {
+    "num_lines": {
+      "type": "int",
+      "range": [
+        1,
+        4
+      ]
+    }
+  },
+  "exclude": [
+    "lcol",
+    "rows",
+    "colors"
+  ],
+  "foreground_freeze": [
+    1,
+    8
+  ],
+  "background_recolor": "any"
+}

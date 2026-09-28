@@ -1,0 +1,27 @@
+{
+  "kwargs": {
+    "num_colors": {
+      "type": "int",
+      "range": [
+        2,
+        4
+      ]
+    },
+    "max_count": {
+      "type": "int",
+      "range": [
+        4,
+        6
+      ]
+    }
+  },
+  "exclude": [
+    "brows",
+    "bcols",
+    "lengths",
+    "colors"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "rows",
+    "cols"
+  ],
+  "kwargs": {
+    "num_cells": {
+      "type": "int",
+      "range": [
+        1,
+        37
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    }
+  },
+  "foreground_freeze": [
+    8
+  ]
+}

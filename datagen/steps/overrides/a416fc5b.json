@@ -1,0 +1,15 @@
+{
+  "foreground_recolor": "off",
+  "background_recolor": "any",
+  "kwargs": {
+    "gsize": {
+      "type": "choice",
+      "choices": [
+        11,
+        15,
+        19,
+        23
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kwargs": {
+    "gsize": {
+      "type": "int",
+      "range": [
+        12,
+        22
+      ]
+    }
+  },
+  "exclude": [
+    "wide",
+    "tall",
+    "brow",
+    "bcol",
+    "prows",
+    "pcols",
+    "lefts",
+    "rites",
+    "pattern"
+  ],
+  "foreground_freeze": []
+}

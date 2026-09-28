@@ -1,0 +1,12 @@
+{
+  "exclude": [
+    "size",
+    "colors",
+    "offset",
+    "rows",
+    "mcol"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

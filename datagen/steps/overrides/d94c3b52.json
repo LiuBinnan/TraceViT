@@ -1,0 +1,26 @@
+{
+  "kwargs": {
+    "nrows": {
+      "type": "int",
+      "range": [
+        3,
+        7
+      ]
+    },
+    "ncols": {
+      "type": "int",
+      "range": [
+        3,
+        7
+      ]
+    }
+  },
+  "exclude": [
+    "lines",
+    "brow",
+    "bcol"
+  ],
+  "foreground_freeze": [
+    7
+  ]
+}

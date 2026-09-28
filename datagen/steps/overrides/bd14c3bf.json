@@ -1,0 +1,12 @@
+{
+  "exclude": [
+    "size",
+    "wides",
+    "talls",
+    "brows",
+    "bcols",
+    "angles",
+    "shapes"
+  ],
+  "foreground_freeze": []
+}

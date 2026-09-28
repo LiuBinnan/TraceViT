@@ -1,0 +1,10 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "height",
+    "reds",
+    "yellows"
+  ],
+  "foreground_recolor": "off",
+  "allow_const_output": true
+}

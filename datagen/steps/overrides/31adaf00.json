@@ -1,0 +1,25 @@
+{
+  "kwargs": {
+    "num_boxes": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    },
+    "noise_density": {
+      "type": "int",
+      "range": [
+        55,
+        90
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": [
+    0,
+    1
+  ]
+}

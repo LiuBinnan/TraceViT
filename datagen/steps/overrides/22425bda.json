@@ -1,0 +1,11 @@
+{
+  "exclude": [
+    "size",
+    "colors",
+    "cdirs",
+    "vals",
+    "allow_ambiguous"
+  ],
+  "foreground_freeze": [],
+  "background_recolor": "any"
+}

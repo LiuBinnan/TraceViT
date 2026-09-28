@@ -1,0 +1,47 @@
+{
+  "kwargs": {
+    "width": {
+      "type": "int",
+      "range": [
+        2,
+        30
+      ]
+    },
+    "height": {
+      "type": "int",
+      "range": [
+        6,
+        20
+      ]
+    },
+    "num_pixels": {
+      "type": "int",
+      "range": [
+        1,
+        300
+      ]
+    },
+    "input_color": {
+      "type": "choice",
+      "choices": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols",
+    "flip",
+    "extended"
+  ],
+  "foreground_freeze": [
+    2
+  ]
+}

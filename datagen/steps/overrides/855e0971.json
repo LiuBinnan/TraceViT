@@ -1,0 +1,36 @@
+{
+  "kwargs": {
+    "width": {
+      "type": "int",
+      "range": [
+        3,
+        30
+      ]
+    },
+    "num_strata": {
+      "type": "int",
+      "range": [
+        2,
+        9
+      ]
+    },
+    "max_markers": {
+      "type": "int",
+      "range": [
+        12,
+        15
+      ]
+    },
+    "count": {
+      "type": "int",
+      "range": [
+        1,
+        15
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols"
+  ]
+}

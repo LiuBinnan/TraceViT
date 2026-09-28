@@ -1,0 +1,11 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "size",
+    "lrow",
+    "mrow",
+    "thues",
+    "bhues"
+  ],
+  "foreground_recolor": "off"
+}

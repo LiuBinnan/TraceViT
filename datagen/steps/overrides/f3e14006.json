@@ -1,0 +1,20 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "width",
+    "height",
+    "brow",
+    "bcol",
+    "order",
+    "flip",
+    "bgcolors",
+    "fgcolors",
+    "prows",
+    "pcols",
+    "extra_rows",
+    "extra_cols",
+    "extra_colors",
+    "extra_grids"
+  ],
+  "foreground_freeze": []
+}

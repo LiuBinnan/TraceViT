@@ -1,0 +1,56 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        15,
+        30
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        15,
+        30
+      ]
+    },
+    "spriteh": {
+      "type": "int",
+      "range": [
+        2,
+        4
+      ]
+    },
+    "spritew": {
+      "type": "int",
+      "range": [
+        2,
+        4
+      ]
+    },
+    "num_types": {
+      "type": "int",
+      "range": [
+        2,
+        9
+      ]
+    },
+    "num_sprites": {
+      "type": "int",
+      "range": [
+        3,
+        56
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "rows",
+    "cols",
+    "idxs",
+    "megarows",
+    "megacols",
+    "megaidxs",
+    "colors"
+  ]
+}

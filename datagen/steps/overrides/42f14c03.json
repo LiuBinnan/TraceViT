@@ -1,0 +1,36 @@
+{
+  "kwargs": {
+    "gsize": {
+      "type": "int",
+      "range": [
+        15,
+        22
+      ]
+    }
+  },
+  "exclude": [
+    "hwides",
+    "htalls",
+    "hrows",
+    "hcols",
+    "htops",
+    "hbottoms",
+    "hcolors",
+    "iwides",
+    "italls",
+    "irows",
+    "icols",
+    "itops",
+    "ibottoms",
+    "icolors",
+    "toprow",
+    "topcol",
+    "topcolor",
+    "bottomrow",
+    "bottomcol",
+    "bottomcolor",
+    "bgcolor",
+    "xpose"
+  ],
+  "foreground_freeze": []
+}

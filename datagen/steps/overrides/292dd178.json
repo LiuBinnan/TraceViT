@@ -1,0 +1,14 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "brows",
+    "bcols",
+    "notches",
+    "bgcolor"
+  ],
+  "foreground_freeze": [
+    2
+  ],
+  "background_recolor": "any"
+}

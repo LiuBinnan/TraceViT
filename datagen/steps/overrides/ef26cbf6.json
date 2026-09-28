@@ -1,0 +1,21 @@
+{
+  "kwargs": {
+    "ngroups": {
+      "type": "int",
+      "range": [
+        2,
+        7
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols",
+    "groups",
+    "colors"
+  ],
+  "foreground_freeze": [
+    1,
+    4
+  ]
+}

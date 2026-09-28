@@ -1,0 +1,9 @@
+{
+  "exclude": [
+    "size",
+    "brow",
+    "bcol",
+    "values"
+  ],
+  "foreground_freeze": []
+}

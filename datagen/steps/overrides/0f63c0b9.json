@@ -1,0 +1,26 @@
+{
+  "kwargs": {
+    "size": {
+      "type": "int",
+      "range": [
+        15,
+        30
+      ]
+    },
+    "num_markers": {
+      "type": "int",
+      "range": [
+        3,
+        6
+      ]
+    }
+  },
+  "exclude": [
+    "prows",
+    "pcols",
+    "colors"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

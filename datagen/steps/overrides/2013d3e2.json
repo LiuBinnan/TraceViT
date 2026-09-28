@@ -1,0 +1,30 @@
+{
+  "exclude": [
+    "row",
+    "col",
+    "rows",
+    "cols",
+    "idxs",
+    "colors",
+    "size",
+    "zoom_size",
+    "seed_size",
+    "grid_size"
+  ],
+  "kwargs": {
+    "num_colors": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    },
+    "num_cells": {
+      "type": "int",
+      "range": [
+        2,
+        120
+      ]
+    }
+  }
+}

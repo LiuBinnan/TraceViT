@@ -1,0 +1,16 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "rows",
+    "cols",
+    "lengths",
+    "colors"
+  ],
+  "foreground_freeze": [
+    2,
+    3
+  ],
+  "foreground_recolor": "off",
+  "background_recolor": "any"
+}

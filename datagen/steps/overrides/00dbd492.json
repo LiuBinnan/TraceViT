@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "size",
+    "rows",
+    "cols",
+    "thicks"
+  ],
+  "foreground_freeze": [
+    3,
+    4,
+    8
+  ]
+}

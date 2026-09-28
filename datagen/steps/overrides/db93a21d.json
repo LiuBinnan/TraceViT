@@ -1,0 +1,14 @@
+{
+  "exclude": [
+    "size",
+    "height",
+    "width",
+    "rows",
+    "cols",
+    "radii"
+  ],
+  "foreground_freeze": [
+    1,
+    3
+  ]
+}

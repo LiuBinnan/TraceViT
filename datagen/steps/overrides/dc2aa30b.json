@@ -1,0 +1,15 @@
+{
+  "kwargs": {
+    "bsize": {
+      "type": "int",
+      "range": [
+        3,
+        5
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": []
+}

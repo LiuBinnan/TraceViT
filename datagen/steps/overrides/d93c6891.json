@@ -1,0 +1,18 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "ywidth",
+    "yheight",
+    "yrow",
+    "ycol",
+    "offsets",
+    "wides",
+    "talls",
+    "lefts",
+    "rights"
+  ],
+  "foreground_freeze": [
+    5
+  ]
+}

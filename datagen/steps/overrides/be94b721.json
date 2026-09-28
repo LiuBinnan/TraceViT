@@ -1,0 +1,11 @@
+{
+  "kwargs": {
+    "count": {
+      "type": "int",
+      "range": [
+        1,
+        30
+      ]
+    }
+  }
+}

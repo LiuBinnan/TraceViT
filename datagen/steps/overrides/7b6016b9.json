@@ -1,0 +1,22 @@
+{
+  "foreground_freeze": [
+    2,
+    3
+  ],
+  "kwargs": {
+    "count": {
+      "type": "int",
+      "range": [
+        4,
+        30
+      ]
+    },
+    "density": {
+      "type": "int",
+      "range": [
+        0,
+        225
+      ]
+    }
+  }
+}

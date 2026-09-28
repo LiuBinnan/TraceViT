@@ -1,0 +1,35 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        4,
+        30
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        4,
+        30
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        1,
+        9
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "minisize",
+    "colors",
+    "row",
+    "col",
+    "bitesize",
+    "biteh",
+    "bitew"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "exclude": [
+    "colors",
+    "brow",
+    "bcol",
+    "inwidth",
+    "inheight",
+    "outwidth",
+    "outheight"
+  ],
+  "foreground_freeze": [
+    0
+  ],
+  "background_recolor": "off"
+}

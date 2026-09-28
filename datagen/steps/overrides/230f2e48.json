@@ -1,0 +1,12 @@
+{
+  "exclude": [
+    "size",
+    "grows",
+    "gcols",
+    "femurs",
+    "tibias",
+    "angles"
+  ],
+  "foreground_freeze": [],
+  "background_recolor": "any"
+}

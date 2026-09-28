@@ -1,0 +1,26 @@
+{
+  "kwargs": {
+    "tree_odds": {
+      "type": "int",
+      "range": [
+        9,
+        19
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "bcol",
+    "blues",
+    "colors",
+    "extras"
+  ],
+  "foreground_freeze": [
+    1,
+    5,
+    7,
+    9
+  ],
+  "foreground_recolor": "off",
+  "background_recolor": "any"
+}

@@ -1,0 +1,16 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "rows",
+    "cols",
+    "wides",
+    "colors",
+    "flip",
+    "xpose"
+  ],
+  "foreground_freeze": [
+    0,
+    5
+  ]
+}

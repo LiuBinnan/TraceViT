@@ -1,0 +1,24 @@
+{
+  "kwargs": {
+    "count": {
+      "type": "int",
+      "range": [
+        4,
+        30
+      ]
+    },
+    "size": {
+      "type": "int",
+      "range": [
+        8,
+        16
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kwargs": {
+    "present_count": {
+      "type": "int",
+      "range": [
+        1,
+        7
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "wide",
+    "tall",
+    "brow",
+    "bcol",
+    "prow",
+    "pcol",
+    "bgcolor",
+    "colors"
+  ],
+  "foreground_freeze": []
+}

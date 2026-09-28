@@ -1,0 +1,22 @@
+{
+  "kwargs": {
+    "nrects": {
+      "type": "int",
+      "range": [
+        5,
+        9
+      ]
+    }
+  },
+  "exclude": [
+    "row",
+    "col",
+    "color",
+    "row_offset",
+    "col_offset"
+  ],
+  "foreground_freeze": [
+    0,
+    1
+  ]
+}

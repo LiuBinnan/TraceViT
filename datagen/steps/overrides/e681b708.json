@@ -1,0 +1,16 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "rows",
+    "cols",
+    "lefts",
+    "rights",
+    "tops",
+    "bottoms",
+    "colors",
+    "prows",
+    "pcols"
+  ],
+  "foreground_recolor": "off"
+}

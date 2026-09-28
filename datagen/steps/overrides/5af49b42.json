@@ -1,0 +1,25 @@
+{
+  "kwargs": {
+    "num_points": {
+      "type": "int",
+      "range": [
+        3,
+        7
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "northwests",
+    "northeasts",
+    "southwests",
+    "southeasts",
+    "rows",
+    "cols",
+    "colors"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

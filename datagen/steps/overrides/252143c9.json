@@ -1,0 +1,9 @@
+{
+  "exclude": [
+    "size",
+    "quadrant",
+    "colors"
+  ],
+  "foreground_freeze": [],
+  "background_recolor": "any"
+}

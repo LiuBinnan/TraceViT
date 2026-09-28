@@ -1,0 +1,22 @@
+{
+  "kwargs": {
+    "path_length": {
+      "type": "int",
+      "range": [
+        3,
+        12
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "rows",
+    "cols"
+  ],
+  "foreground_freeze": [
+    0,
+    2,
+    7
+  ]
+}

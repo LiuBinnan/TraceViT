@@ -1,0 +1,9 @@
+{
+  "exclude": [
+    "size",
+    "line",
+    "xpose",
+    "colors"
+  ],
+  "foreground_recolor": "off"
+}

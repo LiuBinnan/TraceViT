@@ -1,0 +1,13 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "width",
+    "height",
+    "prows",
+    "pcols",
+    "flip"
+  ],
+  "foreground_freeze": [
+    3
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": [
+    5,
+    8
+  ],
+  "kwargs": {}
+}

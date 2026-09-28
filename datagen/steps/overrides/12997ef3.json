@@ -1,0 +1,25 @@
+{
+  "kwargs": {
+    "ncolors": {
+      "type": "int",
+      "range": [
+        2,
+        8
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "brow",
+    "bcol",
+    "prow",
+    "pcol",
+    "colors",
+    "pattern",
+    "xpose"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

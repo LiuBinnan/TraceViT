@@ -1,0 +1,32 @@
+{
+  "kwargs": {
+    "flop": {
+      "type": "choice",
+      "choices": [
+        true,
+        false
+      ]
+    },
+    "xpose": {
+      "type": "choice",
+      "choices": [
+        true,
+        false
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "row",
+    "cols",
+    "colors",
+    "brow",
+    "bcol",
+    "prows",
+    "pcols"
+  ],
+  "foreground_freeze": [
+    2
+  ]
+}

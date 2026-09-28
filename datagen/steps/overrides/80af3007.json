@@ -1,0 +1,27 @@
+{
+  "kwargs": {
+    "spriteh": {
+      "type": "int",
+      "range": [
+        2,
+        3
+      ]
+    },
+    "spritew": {
+      "type": "int",
+      "range": [
+        2,
+        3
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "width",
+    "height",
+    "rows",
+    "cols",
+    "rowoffset",
+    "coloffset"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "wides",
+    "talls",
+    "brows",
+    "bcols",
+    "thicks",
+    "colors",
+    "hdiffs",
+    "vdiffs"
+  ],
+  "foreground_freeze": [
+    0
+  ],
+  "kwargs": {}
+}

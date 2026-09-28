@@ -1,0 +1,24 @@
+{
+  "kwargs": {
+    "count": {
+      "type": "int",
+      "range": [
+        1,
+        4
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "brows",
+    "bcols",
+    "grows",
+    "gcols",
+    "dists"
+  ],
+  "foreground_freeze": [
+    3,
+    5
+  ],
+  "background_recolor": "any"
+}

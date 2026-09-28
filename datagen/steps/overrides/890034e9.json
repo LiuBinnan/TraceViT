@@ -1,0 +1,41 @@
+{
+  "kwargs": {
+    "gh": {
+      "type": "int",
+      "range": [
+        12,
+        30
+      ]
+    },
+    "gw": {
+      "type": "int",
+      "range": [
+        12,
+        30
+      ]
+    },
+    "num_bg_colors": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    },
+    "density": {
+      "type": "int",
+      "range": [
+        0,
+        50
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "width",
+    "height",
+    "rows",
+    "cols",
+    "boxcolor",
+    "colors"
+  ]
+}

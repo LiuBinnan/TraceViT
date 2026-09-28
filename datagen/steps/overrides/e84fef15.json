@@ -1,0 +1,30 @@
+{
+  "kwargs": {
+    "bsize": {
+      "type": "int",
+      "range": [
+        4,
+        7
+      ]
+    },
+    "nblocks": {
+      "type": "int",
+      "range": [
+        3,
+        5
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols",
+    "colors",
+    "vanishes",
+    "brow",
+    "bcol"
+  ],
+  "foreground_freeze": [
+    1
+  ],
+  "background_recolor": "any"
+}

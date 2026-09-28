@@ -1,0 +1,12 @@
+{
+  "exclude": [
+    "tall",
+    "colors",
+    "brow",
+    "bcol",
+    "wide",
+    "width",
+    "height"
+  ],
+  "foreground_recolor": "off"
+}

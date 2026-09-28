@@ -1,0 +1,9 @@
+{
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": [
+    0
+  ],
+  "foreground_recolor": "off"
+}

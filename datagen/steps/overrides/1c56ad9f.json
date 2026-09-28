@@ -1,0 +1,29 @@
+{
+  "kwargs": {
+    "hcopies": {
+      "type": "int",
+      "range": [
+        1,
+        6
+      ]
+    },
+    "vcopies": {
+      "type": "int",
+      "range": [
+        1,
+        6
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "brow",
+    "bcol",
+    "wide",
+    "tall"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

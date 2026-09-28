@@ -1,0 +1,18 @@
+{
+  "foreground_freeze": [
+    3
+  ],
+  "kwargs": {
+    "count": {
+      "type": "int",
+      "range": [
+        1,
+        225
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols"
+  ]
+}

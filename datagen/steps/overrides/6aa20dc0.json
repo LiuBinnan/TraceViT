@@ -1,0 +1,50 @@
+{
+  "kwargs": {
+    "width": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    },
+    "height": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    },
+    "sprite_size": {
+      "type": "int",
+      "range": [
+        2,
+        3
+      ]
+    },
+    "num_megas": {
+      "type": "int",
+      "range": [
+        2,
+        35
+      ]
+    },
+    "max_mag": {
+      "type": "int",
+      "range": [
+        1,
+        4
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols",
+    "colors",
+    "megarows",
+    "megacols",
+    "mags",
+    "hflips",
+    "vflips",
+    "b"
+  ]
+}

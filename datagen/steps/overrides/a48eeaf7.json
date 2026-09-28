@@ -1,0 +1,53 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        8,
+        30
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        8,
+        30
+      ]
+    },
+    "boxheight": {
+      "type": "int",
+      "range": [
+        2,
+        15
+      ]
+    },
+    "boxwidth": {
+      "type": "int",
+      "range": [
+        2,
+        15
+      ]
+    },
+    "count": {
+      "type": "int",
+      "range": [
+        1,
+        60
+      ]
+    },
+    "corner_count": {
+      "type": "int",
+      "range": [
+        0,
+        4
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "rows",
+    "cols",
+    "boxrow",
+    "boxcol"
+  ]
+}

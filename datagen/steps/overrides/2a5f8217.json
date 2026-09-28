@@ -1,0 +1,25 @@
+{
+  "kwargs": {
+    "max_size": {
+      "type": "int",
+      "range": [
+        15,
+        17
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "brows",
+    "bcols",
+    "bshapes",
+    "srows",
+    "scols",
+    "sshapes",
+    "colors"
+  ],
+  "foreground_freeze": [
+    0,
+    1
+  ]
+}

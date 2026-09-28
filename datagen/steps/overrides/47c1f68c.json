@@ -1,0 +1,18 @@
+{
+  "kwargs": {
+    "count": {
+      "type": "int",
+      "range": [
+        1,
+        195
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "height",
+    "width",
+    "rows",
+    "cols"
+  ]
+}

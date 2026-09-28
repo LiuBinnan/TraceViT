@@ -1,0 +1,17 @@
+{
+  "kwargs": {
+    "size": {
+      "type": "int",
+      "range": [
+        3,
+        6
+      ]
+    }
+  },
+  "exclude": [
+    "brow",
+    "bcol",
+    "colors"
+  ],
+  "foreground_freeze": []
+}

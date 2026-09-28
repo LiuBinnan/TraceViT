@@ -1,0 +1,14 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "width",
+    "height",
+    "cols",
+    "lengths",
+    "colors"
+  ],
+  "foreground_freeze": [
+    1,
+    2
+  ]
+}

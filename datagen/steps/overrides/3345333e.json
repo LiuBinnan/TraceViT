@@ -1,0 +1,66 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        14,
+        30
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        16,
+        30
+      ]
+    },
+    "shape_height": {
+      "type": "int",
+      "range": [
+        10,
+        28
+      ]
+    },
+    "shape_width": {
+      "type": "int",
+      "range": [
+        8,
+        14
+      ]
+    },
+    "count": {
+      "type": "int",
+      "range": [
+        30,
+        260
+      ]
+    },
+    "box_height": {
+      "type": "int",
+      "range": [
+        2,
+        27
+      ]
+    },
+    "box_width": {
+      "type": "int",
+      "range": [
+        2,
+        14
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "rows",
+    "cols",
+    "srow",
+    "scol",
+    "brow",
+    "bcol",
+    "wide",
+    "tall",
+    "off",
+    "flip"
+  ]
+}

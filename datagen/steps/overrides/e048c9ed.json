@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "gcol",
+    "offset",
+    "bcols",
+    "lengths",
+    "colors",
+    "extra"
+  ],
+  "foreground_recolor": "off"
+}

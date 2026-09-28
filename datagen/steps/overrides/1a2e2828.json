@@ -1,0 +1,47 @@
+{
+  "kwargs": {
+    "width": {
+      "type": "int",
+      "range": [
+        14,
+        30
+      ]
+    },
+    "height": {
+      "type": "int",
+      "range": [
+        14,
+        30
+      ]
+    },
+    "num_h": {
+      "type": "int",
+      "range": [
+        1,
+        5
+      ]
+    },
+    "num_v": {
+      "type": "int",
+      "range": [
+        1,
+        4
+      ]
+    },
+    "max_thick": {
+      "type": "int",
+      "range": [
+        1,
+        5
+      ]
+    }
+  },
+  "exclude": [
+    "values",
+    "thicks",
+    "cdirs",
+    "colors"
+  ],
+  "foreground_freeze": [],
+  "allow_const_output": true
+}

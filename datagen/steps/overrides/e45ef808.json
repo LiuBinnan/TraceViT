@@ -1,0 +1,29 @@
+{
+  "kwargs": {
+    "ncols": {
+      "type": "int",
+      "range": [
+        8,
+        24
+      ]
+    },
+    "nrows": {
+      "type": "int",
+      "range": [
+        10,
+        20
+      ]
+    }
+  },
+  "exclude": [
+    "lengths"
+  ],
+  "foreground_freeze": [
+    0,
+    4,
+    6,
+    9
+  ],
+  "foreground_recolor": "off",
+  "background_recolor": "any"
+}

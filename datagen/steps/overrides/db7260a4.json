@@ -1,0 +1,11 @@
+{
+  "exclude": [
+    "rows",
+    "cols",
+    "lengths",
+    "cdirs",
+    "pcol"
+  ],
+  "foreground_freeze": [],
+  "background_recolor": "off"
+}

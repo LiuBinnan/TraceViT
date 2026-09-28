@@ -1,0 +1,24 @@
+{
+  "kwargs": {
+    "gsize": {
+      "type": "choice",
+      "choices": [
+        9,
+        11,
+        13,
+        15
+      ]
+    }
+  },
+  "exclude": [
+    "jcol",
+    "brow",
+    "bcol",
+    "colors"
+  ],
+  "foreground_freeze": [
+    4,
+    6
+  ],
+  "background_recolor": "any"
+}

@@ -14,7 +14,7 @@ V1_COUNT = 400
 
 
 def v1_task_ids():
-    """The 400 ARC-AGI-1 task ids (registry is V1-first; see CLAUDE.md)."""
+    """The 400 ARC-AGI-1 task ids (the registry lists them first)."""
     return list(task_list.task_list())[:V1_COUNT]
 
 

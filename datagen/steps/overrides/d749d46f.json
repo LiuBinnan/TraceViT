@@ -1,0 +1,9 @@
+{
+  "background_recolor": "any",
+  "exclude": [
+    "wides",
+    "talls"
+  ],
+  "foreground_freeze": [],
+  "kwargs": {}
+}

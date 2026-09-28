@@ -1,0 +1,36 @@
+{
+  "kwargs": {
+    "width": {
+      "type": "int",
+      "range": [
+        1,
+        15
+      ]
+    },
+    "height": {
+      "type": "int",
+      "range": [
+        1,
+        30
+      ]
+    },
+    "bg_color": {
+      "type": "int",
+      "range": [
+        0,
+        9
+      ]
+    },
+    "palette_id": {
+      "type": "int",
+      "range": [
+        1,
+        1023
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "exclude": [
+    "size",
+    "grows",
+    "prows",
+    "lengths",
+    "flop",
+    "xpose"
+  ],
+  "foreground_freeze": [
+    0,
+    9
+  ],
+  "foreground_recolor": "off",
+  "background_recolor": "any"
+}

@@ -1,0 +1,15 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "width",
+    "height",
+    "wide",
+    "tall",
+    "row",
+    "col"
+  ],
+  "foreground_freeze": [
+    1
+  ],
+  "background_recolor": "any"
+}

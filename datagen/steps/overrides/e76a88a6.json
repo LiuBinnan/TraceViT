@@ -1,0 +1,39 @@
+{
+  "kwargs": {
+    "grid_height": {
+      "type": "int",
+      "range": [
+        8,
+        30
+      ]
+    },
+    "grid_width": {
+      "type": "int",
+      "range": [
+        8,
+        30
+      ]
+    },
+    "num_sprites": {
+      "type": "int",
+      "range": [
+        2,
+        50
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        2,
+        8
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "width",
+    "height",
+    "rows",
+    "cols"
+  ]
+}

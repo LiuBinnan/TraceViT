@@ -1,0 +1,40 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        4,
+        26
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        4,
+        26
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        1,
+        4
+      ]
+    },
+    "density": {
+      "type": "int",
+      "range": [
+        0,
+        100
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "height_units",
+    "width_units",
+    "rows",
+    "cols",
+    "colors"
+  ]
+}

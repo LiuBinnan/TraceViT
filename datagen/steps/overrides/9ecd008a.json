@@ -1,0 +1,38 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        8,
+        15
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        8,
+        15
+      ]
+    },
+    "mini_h": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    },
+    "mini_w": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "minisize",
+    "row",
+    "col"
+  ]
+}

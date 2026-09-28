@@ -1,0 +1,12 @@
+{
+  "exclude": [
+    "inwidth",
+    "inheight",
+    "outwidth",
+    "outheight",
+    "colors"
+  ],
+  "foreground_freeze": [
+    8
+  ]
+}

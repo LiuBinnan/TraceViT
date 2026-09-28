@@ -1,0 +1,23 @@
+{
+  "kwargs": {
+    "num_lines": {
+      "type": "int",
+      "range": [
+        1,
+        7
+      ]
+    },
+    "num_dots": {
+      "type": "int",
+      "range": [
+        1,
+        15
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols",
+    "lines"
+  ]
+}

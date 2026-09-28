@@ -1,0 +1,20 @@
+{
+  "kwargs": {
+    "num_boxes": {
+      "type": "int",
+      "range": [
+        4,
+        9
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols",
+    "colors",
+    "bcolors",
+    "pcolors"
+  ],
+  "foreground_freeze": [],
+  "background_recolor": "any"
+}

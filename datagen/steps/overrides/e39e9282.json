@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "size",
+    "brows",
+    "bcols",
+    "bcolors",
+    "prows",
+    "pcols",
+    "pidxs"
+  ],
+  "foreground_recolor": "off",
+  "background_recolor": "any"
+}

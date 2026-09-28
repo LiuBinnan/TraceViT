@@ -1,0 +1,26 @@
+{
+  "kwargs": {
+    "crh": {
+      "type": "int",
+      "range": [
+        1,
+        20
+      ]
+    },
+    "crw": {
+      "type": "int",
+      "range": [
+        1,
+        20
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "width",
+    "height",
+    "row",
+    "col",
+    "thicks"
+  ]
+}

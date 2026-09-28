@@ -1,0 +1,21 @@
+{
+  "kwargs": {
+    "gheight": {
+      "type": "int",
+      "range": [
+        2,
+        3
+      ]
+    }
+  },
+  "exclude": [
+    "colors",
+    "flip",
+    "flop",
+    "xpose"
+  ],
+  "foreground_freeze": [
+    1,
+    8
+  ]
+}

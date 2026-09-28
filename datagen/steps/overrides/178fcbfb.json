@@ -1,0 +1,11 @@
+{
+  "exclude": [
+    "colors",
+    "rows",
+    "cols",
+    "red_count",
+    "blue_count",
+    "green_count"
+  ],
+  "foreground_recolor": "off"
+}

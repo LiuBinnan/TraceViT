@@ -1,0 +1,10 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "row",
+    "cols"
+  ],
+  "foreground_recolor": "off",
+  "background_recolor": "any"
+}

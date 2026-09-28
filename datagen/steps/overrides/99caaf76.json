@@ -1,0 +1,15 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "brows",
+    "cdirs",
+    "xpose",
+    "colors"
+  ],
+  "foreground_freeze": [
+    1,
+    4
+  ],
+  "background_recolor": "any"
+}

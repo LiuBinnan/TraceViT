@@ -1,0 +1,32 @@
+{
+  "kwargs": {
+    "num_boxes": {
+      "type": "int",
+      "range": [
+        3,
+        6
+      ]
+    },
+    "num_pixels": {
+      "type": "int",
+      "range": [
+        6,
+        15
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "brows",
+    "bcols",
+    "prows",
+    "pcols",
+    "pcolors",
+    "extra_idxs",
+    "extra_rows",
+    "extra_cols"
+  ],
+  "foreground_freeze": [
+    5
+  ]
+}

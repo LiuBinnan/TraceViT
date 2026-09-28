@@ -1,0 +1,27 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "wide",
+    "tall",
+    "brow",
+    "bcol",
+    "bcolor",
+    "bangle",
+    "prows",
+    "pcols",
+    "pcolors"
+  ],
+  "kwargs": {
+    "density": {
+      "type": "int",
+      "range": [
+        11,
+        29
+      ]
+    }
+  },
+  "foreground_freeze": [
+    0
+  ]
+}

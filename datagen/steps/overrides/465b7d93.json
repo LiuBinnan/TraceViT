@@ -1,0 +1,17 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "size",
+    "prow",
+    "pcol",
+    "brow",
+    "bcol",
+    "length",
+    "color",
+    "notch",
+    "pink",
+    "orange"
+  ],
+  "foreground_freeze": [],
+  "background_recolor": "any"
+}

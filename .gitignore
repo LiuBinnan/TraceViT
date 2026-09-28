@@ -8,3 +8,6 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .DS_Store
+
+# corpora produced by datagen/ and rearc/
+out/

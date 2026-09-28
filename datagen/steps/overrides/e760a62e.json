@@ -1,0 +1,16 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "size",
+    "length",
+    "row_offset",
+    "col_offset",
+    "rows",
+    "cols",
+    "colors"
+  ],
+  "foreground_freeze": [
+    6,
+    8
+  ]
+}

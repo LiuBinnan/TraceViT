@@ -1,0 +1,47 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        15,
+        30
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        15,
+        30
+      ]
+    },
+    "sprite_height": {
+      "type": "int",
+      "range": [
+        1,
+        14
+      ]
+    },
+    "sprite_width": {
+      "type": "int",
+      "range": [
+        1,
+        14
+      ]
+    },
+    "density": {
+      "type": "int",
+      "range": [
+        0,
+        195
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols",
+    "row",
+    "col",
+    "size",
+    "minisize"
+  ]
+}

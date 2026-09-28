@@ -1,0 +1,17 @@
+{
+  "kwargs": {
+    "quadrant_size": {
+      "type": "int",
+      "range": [
+        1,
+        3
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": [
+    5
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "kwargs": {
+    "width": {
+      "type": "int",
+      "range": [
+        1,
+        30
+      ]
+    },
+    "num_layers": {
+      "type": "int",
+      "range": [
+        2,
+        15
+      ]
+    },
+    "inserts": {
+      "type": "int",
+      "range": [
+        1,
+        28
+      ]
+    },
+    "xpose": {
+      "type": "choice",
+      "choices": [
+        0,
+        1
+      ]
+    }
+  },
+  "exclude": [
+    "colors",
+    "thicks"
+  ]
+}

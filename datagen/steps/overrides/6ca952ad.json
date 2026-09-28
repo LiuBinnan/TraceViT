@@ -1,0 +1,15 @@
+{
+  "background_recolor": "any",
+  "exclude": [
+    "size",
+    "wides",
+    "talls",
+    "brows",
+    "bcols",
+    "colors",
+    "groups",
+    "fgcolor"
+  ],
+  "foreground_freeze": [],
+  "kwargs": {}
+}

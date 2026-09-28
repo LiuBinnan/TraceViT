@@ -1,0 +1,15 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "gh",
+    "gw",
+    "rows",
+    "cols",
+    "megarows",
+    "megacols",
+    "rowoffset",
+    "coloffset",
+    "magnifier"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "kwargs": {
+    "num_zeroes": {
+      "type": "int",
+      "range": [
+        4,
+        7
+      ]
+    },
+    "size": {
+      "type": "int",
+      "range": [
+        4,
+        6
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "foreground_recolor": "off",
+  "background_recolor": "off"
+}

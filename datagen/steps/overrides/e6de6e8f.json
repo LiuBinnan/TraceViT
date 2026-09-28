@@ -1,0 +1,19 @@
+{
+  "kwargs": {
+    "ncmd": {
+      "type": "int",
+      "range": [
+        4,
+        9
+      ]
+    }
+  },
+  "exclude": [
+    "commands",
+    "nzero"
+  ],
+  "foreground_freeze": [
+    2,
+    3
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "kwargs": {
+    "canvas_width": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    },
+    "canvas_height": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "wides",
+    "talls",
+    "rows",
+    "cols",
+    "colors"
+  ],
+  "foreground_freeze": [
+    0,
+    8
+  ]
+}

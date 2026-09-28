@@ -1,0 +1,45 @@
+{
+  "kwargs": {
+    "minisizeh": {
+      "type": "int",
+      "range": [
+        2,
+        6
+      ]
+    },
+    "minisizew": {
+      "type": "int",
+      "range": [
+        2,
+        6
+      ]
+    },
+    "count": {
+      "type": "int",
+      "range": [
+        2,
+        60
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "minisize",
+    "gh",
+    "gw",
+    "sprites",
+    "rows",
+    "cols",
+    "minirows",
+    "minicols",
+    "color",
+    "sprite_colors"
+  ]
+}

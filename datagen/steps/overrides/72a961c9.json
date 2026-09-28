@@ -1,0 +1,9 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "height",
+    "row",
+    "vals"
+  ],
+  "foreground_recolor": "off"
+}

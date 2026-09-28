@@ -1,0 +1,19 @@
+{
+  "kwargs": {
+    "isize": {
+      "type": "int",
+      "range": [
+        5,
+        19
+      ]
+    }
+  },
+  "exclude": [
+    "prow",
+    "pcol"
+  ],
+  "foreground_freeze": [
+    2,
+    4
+  ]
+}

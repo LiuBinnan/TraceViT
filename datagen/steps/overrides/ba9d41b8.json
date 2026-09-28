@@ -1,0 +1,12 @@
+{
+  "exclude": [
+    "wides",
+    "talls",
+    "rows",
+    "cols",
+    "colors",
+    "width",
+    "height"
+  ],
+  "foreground_freeze": []
+}

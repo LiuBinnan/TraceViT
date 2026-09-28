@@ -1,0 +1,25 @@
+{
+  "kwargs": {
+    "width": {
+      "type": "int",
+      "range": [
+        4,
+        30
+      ]
+    },
+    "height": {
+      "type": "int",
+      "range": [
+        8,
+        30
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        1,
+        9
+      ]
+    }
+  }
+}

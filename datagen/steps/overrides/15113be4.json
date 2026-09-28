@@ -1,0 +1,30 @@
+{
+  "kwargs": {
+    "match_count": {
+      "type": "int",
+      "range": [
+        1,
+        4
+      ]
+    },
+    "sprite_pixels": {
+      "type": "int",
+      "range": [
+        2,
+        6
+      ]
+    }
+  },
+  "exclude": [
+    "vals",
+    "flip",
+    "flop",
+    "colors",
+    "spacing",
+    "size"
+  ],
+  "foreground_freeze": [
+    1,
+    4
+  ]
+}

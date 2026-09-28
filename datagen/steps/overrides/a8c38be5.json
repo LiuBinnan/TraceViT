@@ -1,0 +1,27 @@
+{
+  "kwargs": {
+    "block_rows": {
+      "type": "int",
+      "range": [
+        1,
+        3
+      ]
+    },
+    "block_cols": {
+      "type": "int",
+      "range": [
+        1,
+        3
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "rows",
+    "cols",
+    "colors",
+    "size",
+    "minisize"
+  ]
+}

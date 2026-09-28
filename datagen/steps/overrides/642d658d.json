@@ -1,0 +1,15 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "width",
+    "height",
+    "answer",
+    "colors"
+  ],
+  "foreground_freeze": [
+    0,
+    4
+  ],
+  "background_recolor": "any",
+  "allow_const_output": true
+}

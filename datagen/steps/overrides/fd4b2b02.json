@@ -1,0 +1,12 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "size",
+    "wide",
+    "tall",
+    "brow",
+    "bcol",
+    "color"
+  ],
+  "foreground_recolor": "off"
+}

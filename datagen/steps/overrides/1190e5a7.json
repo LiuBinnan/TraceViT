@@ -1,0 +1,15 @@
+{
+  "exclude": [
+    "rows",
+    "cols"
+  ],
+  "kwargs": {
+    "num_colors": {
+      "type": "int",
+      "range": [
+        2,
+        10
+      ]
+    }
+  }
+}

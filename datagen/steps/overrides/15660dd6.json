@@ -1,0 +1,14 @@
+{
+  "exclude": [
+    "size",
+    "hcolors",
+    "brows",
+    "values"
+  ],
+  "foreground_freeze": [
+    5,
+    9,
+    0
+  ],
+  "background_recolor": "any"
+}

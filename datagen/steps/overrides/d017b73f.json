@@ -1,0 +1,15 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "hlengths",
+    "hrows",
+    "vlengths",
+    "vcolors",
+    "voffsets",
+    "bump"
+  ],
+  "foreground_freeze": [
+    0
+  ],
+  "background_recolor": "off"
+}

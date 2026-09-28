@@ -1,0 +1,11 @@
+{
+  "task_id": "2c0b0aff",
+  "trace_seed": 2025,
+  "save_vars": [
+    "output"
+  ],
+  "checkpoints": [],
+  "category": "skip",
+  "group": "b3",
+  "schema_version": 3
+}

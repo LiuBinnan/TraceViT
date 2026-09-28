@@ -1,0 +1,33 @@
+{
+  "kwargs": {
+    "miniheight": {
+      "type": "int",
+      "range": [
+        2,
+        9
+      ]
+    },
+    "miniwidth": {
+      "type": "int",
+      "range": [
+        2,
+        10
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "minisize",
+    "height",
+    "width",
+    "rows",
+    "cols",
+    "idxs",
+    "minirows",
+    "minicols",
+    "num"
+  ],
+  "foreground_freeze": [
+    1
+  ]
+}

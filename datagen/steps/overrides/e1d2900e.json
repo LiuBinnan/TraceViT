@@ -1,0 +1,12 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "brows",
+    "bcols",
+    "rrows",
+    "rcols",
+    "extra_idxs"
+  ],
+  "foreground_freeze": []
+}

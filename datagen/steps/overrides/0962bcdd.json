@@ -1,0 +1,36 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        11,
+        30
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    },
+    "count": {
+      "type": "int",
+      "range": [
+        1,
+        36
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        2,
+        7
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "cols"
+  ]
+}

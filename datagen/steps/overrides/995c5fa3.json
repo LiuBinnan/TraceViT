@@ -1,0 +1,12 @@
+{
+  "foreground_recolor": "off",
+  "kwargs": {
+    "num": {
+      "type": "int",
+      "range": [
+        1,
+        6
+      ]
+    }
+  }
+}

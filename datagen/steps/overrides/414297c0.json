@@ -1,0 +1,15 @@
+{
+  "exclude": [
+    "brow",
+    "bcol",
+    "irows",
+    "icols",
+    "orows",
+    "ocols",
+    "colors"
+  ],
+  "foreground_freeze": [
+    0,
+    2
+  ]
+}

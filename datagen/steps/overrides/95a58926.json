@@ -1,0 +1,26 @@
+{
+  "kwargs": {
+    "spacing": {
+      "type": "int",
+      "range": [
+        2,
+        7
+      ]
+    },
+    "noise_odds": {
+      "type": "int",
+      "range": [
+        5,
+        15
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "colors"
+  ],
+  "foreground_freeze": [
+    5
+  ]
+}

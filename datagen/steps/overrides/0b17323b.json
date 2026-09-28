@@ -1,0 +1,19 @@
+{
+  "kwargs": {
+    "size": {
+      "type": "int",
+      "range": [
+        15,
+        30
+      ]
+    }
+  },
+  "exclude": [
+    "spacing",
+    "start"
+  ],
+  "foreground_freeze": [
+    1,
+    2
+  ]
+}

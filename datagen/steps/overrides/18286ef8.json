@@ -1,0 +1,25 @@
+{
+  "kwargs": {
+    "count": {
+      "type": "int",
+      "range": [
+        4,
+        20
+      ]
+    }
+  },
+  "exclude": [
+    "wides",
+    "talls",
+    "prows",
+    "pcols",
+    "pids",
+    "pcolors"
+  ],
+  "foreground_freeze": [
+    5,
+    6,
+    9
+  ],
+  "background_recolor": "any"
+}

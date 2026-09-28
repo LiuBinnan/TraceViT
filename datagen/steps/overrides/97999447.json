@@ -1,0 +1,9 @@
+{
+  "foreground_freeze": [
+    5
+  ],
+  "exclude": [
+    "num_dots",
+    "num_colors"
+  ]
+}

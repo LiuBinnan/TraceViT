@@ -1,0 +1,24 @@
+{
+  "kwargs": {
+    "grid_h": {
+      "type": "int",
+      "range": [
+        3,
+        10
+      ]
+    },
+    "grid_w": {
+      "type": "int",
+      "range": [
+        3,
+        10
+      ]
+    }
+  },
+  "exclude": [
+    "bh",
+    "bw",
+    "size",
+    "count"
+  ]
+}

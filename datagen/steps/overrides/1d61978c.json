@@ -1,0 +1,24 @@
+{
+  "kwargs": {
+    "gsize": {
+      "type": "int",
+      "range": [
+        16,
+        30
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols",
+    "lengths",
+    "angles"
+  ],
+  "foreground_freeze": [
+    2,
+    5,
+    8
+  ],
+  "foreground_recolor": "off",
+  "background_recolor": "any"
+}

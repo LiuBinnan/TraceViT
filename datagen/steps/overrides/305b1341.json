@@ -1,0 +1,22 @@
+{
+  "kwargs": {
+    "box_size_extension": {
+      "type": "int",
+      "range": [
+        1,
+        2
+      ]
+    }
+  },
+  "exclude": [
+    "wides",
+    "talls",
+    "brows",
+    "bcols",
+    "fgcolors",
+    "bgcolors"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

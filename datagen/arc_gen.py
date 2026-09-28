@@ -15,12 +15,15 @@
 """A command-line interface for ARC-GEN."""
 
 import json
+import os
 import random
 import sys
 import task_list
 from steps import batch, dataset, variations
 
-ARC_AGI_DATA_DIR = "external/ARC-AGI/data/training/"
+# Reference JSON for validate: ARC-AGI-1 training tasks first, then ARC-AGI-2.
+ARC_AGI_DATA_DIRS = ["external/ARC-AGI/data/training/",
+                     "external/ARC-AGI-2/data/training/"]
 BASE_SEED = 2025
 
 
@@ -86,13 +89,25 @@ def _variation_args(argv):
   return generator_kwargs, colors
 
 
+def reference_path(task_id):
+  """The task's reference JSON, searched in ARC_AGI_DATA_DIRS order."""
+  for directory in ARC_AGI_DATA_DIRS:
+    path = directory + task_id + ".json"
+    if os.path.exists(path): return path
+  return None
+
+
 def validate_generators():
   """Validates all generators against their expected outputs."""
-  passing, failing = 0, []
+  passing, failing, missing = 0, [], []
   for task_id, task_info in task_list.task_list().items():
     _, validator = task_info
+    path = reference_path(task_id)
+    if path is None:
+      missing.append(task_id)
+      continue
     actual_result = validator()
-    with open(ARC_AGI_DATA_DIR + task_id + ".json", "r") as f:
+    with open(path, "r") as f:
       expected_result = json.load(f)
       if "name" in expected_result: del expected_result["name"]
       if actual_result == expected_result:
@@ -102,6 +117,9 @@ def validate_generators():
   print("A total of " + str(passing) + " generators passed.")
   print("A total of " + str(len(failing)) + " generators failed.")
   if failing: print("Failing generators: " + str(failing))
+  if missing:
+    print("No reference JSON for " + str(len(missing)) + " generators (run "
+          "`git submodule update --init`): " + str(missing))
 
 
 def generate_benchmarks(task_id, num_examples, base_seed=BASE_SEED,

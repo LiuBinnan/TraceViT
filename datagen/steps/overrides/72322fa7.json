@@ -1,0 +1,46 @@
+{
+  "kwargs": {
+    "width": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    },
+    "height": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    },
+    "sprite_types": {
+      "type": "int",
+      "range": [
+        1,
+        4
+      ]
+    },
+    "count": {
+      "type": "int",
+      "range": [
+        2,
+        48
+      ]
+    },
+    "shape_count": {
+      "type": "int",
+      "range": [
+        4,
+        13
+      ]
+    }
+  },
+  "include_only": [
+    "width",
+    "height",
+    "sprite_types",
+    "count",
+    "shape_count"
+  ]
+}

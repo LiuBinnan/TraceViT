@@ -1,0 +1,15 @@
+{
+  "exclude": [
+    "size",
+    "prow",
+    "spacing",
+    "tcolor",
+    "lcolor",
+    "flip",
+    "xpose",
+    "colors"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

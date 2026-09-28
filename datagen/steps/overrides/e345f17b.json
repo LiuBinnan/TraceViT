@@ -1,0 +1,9 @@
+{
+  "exclude": [
+    "top",
+    "bottom",
+    "width",
+    "height"
+  ],
+  "foreground_recolor": "off"
+}

@@ -1,0 +1,18 @@
+{
+  "background_recolor": "off",
+  "kwargs": {
+    "size": {
+      "type": "int",
+      "range": [
+        2,
+        10
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

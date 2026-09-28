@@ -17,9 +17,14 @@ import task_list
 from steps import batch, checkpoints, storage
 
 SEED = 2025
-# Resolution order: training first, then evaluation (all 400 tasks in this
-# release are ARC-AGI-1 training tasks, so lookups resolve at the first entry).
+# Resolution order: ARC-AGI-1 training, then ARC-AGI-2 training, then ARC-AGI-1
+# evaluation. Training first so the V1 tasks that also appear in ARC-AGI-2
+# replay against the V1 JSON (validate()'s call order is the V1 example
+# order). ARC-AGI-2 before evaluation because the ARC-AGI-2 registry tasks
+# reproduce the ARC-AGI-2 examples, and some of them also appear in the V1
+# evaluation set with different content.
 ARC_DIRS = ["external/ARC-AGI/data/training",
+            "external/ARC-AGI-2/data/training",
             "external/ARC-AGI/data/evaluation"]
 
 

@@ -1,0 +1,35 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "num_boxes",
+    "brows",
+    "bcols",
+    "wides",
+    "talls",
+    "rows",
+    "cols",
+    "idxs",
+    "srows",
+    "scols",
+    "colors",
+    "drows",
+    "dcols",
+    "dcolor"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kwargs": {
+    "tile_h": {
+      "type": "int",
+      "range": [
+        2,
+        15
+      ]
+    },
+    "tile_w": {
+      "type": "int",
+      "range": [
+        2,
+        15
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

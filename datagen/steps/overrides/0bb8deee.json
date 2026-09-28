@@ -1,0 +1,25 @@
+{
+  "kwargs": {
+    "sprite_tries": {
+      "type": "int",
+      "range": [
+        0,
+        12
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "rows",
+    "cols",
+    "groups",
+    "grows",
+    "gcols",
+    "gcolors",
+    "trow",
+    "tcol",
+    "tcolor"
+  ],
+  "foreground_freeze": []
+}

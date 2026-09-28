@@ -1,0 +1,21 @@
+{
+  "kwargs": {
+    "count": {
+      "type": "int",
+      "range": [
+        3,
+        7
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "prows",
+    "pcols",
+    "plengths",
+    "pcolors",
+    "cdirs"
+  ],
+  "foreground_freeze": []
+}

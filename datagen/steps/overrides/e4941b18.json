@@ -1,0 +1,19 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "size",
+    "left",
+    "width",
+    "height",
+    "red",
+    "cyan",
+    "flop"
+  ],
+  "foreground_freeze": [
+    2,
+    5,
+    8
+  ],
+  "foreground_recolor": "off",
+  "background_recolor": "any"
+}

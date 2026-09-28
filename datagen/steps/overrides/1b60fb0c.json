@@ -1,0 +1,62 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    },
+    "count": {
+      "type": "int",
+      "range": [
+        1,
+        224
+      ]
+    },
+    "block_size": {
+      "type": "int",
+      "range": [
+        2,
+        15
+      ]
+    },
+    "shift": {
+      "type": "int",
+      "range": [
+        0,
+        15
+      ]
+    },
+    "missing": {
+      "type": "int",
+      "range": [
+        0,
+        3
+      ]
+    },
+    "variant": {
+      "type": "int",
+      "range": [
+        0,
+        7
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "rows",
+    "cols",
+    "offset"
+  ],
+  "foreground_freeze": [
+    2
+  ]
+}

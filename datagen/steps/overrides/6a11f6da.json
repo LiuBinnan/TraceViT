@@ -1,0 +1,10 @@
+{
+  "exclude": [
+    "top",
+    "middle",
+    "bottom",
+    "width",
+    "height"
+  ],
+  "foreground_freeze": []
+}

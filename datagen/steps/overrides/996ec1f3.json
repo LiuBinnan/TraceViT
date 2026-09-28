@@ -1,0 +1,14 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "prow",
+    "pcol",
+    "colors",
+    "noise",
+    "size"
+  ],
+  "foreground_freeze": [
+    0
+  ],
+  "background_recolor": "off"
+}

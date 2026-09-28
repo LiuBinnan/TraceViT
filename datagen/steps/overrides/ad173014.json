@@ -1,0 +1,19 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "size",
+    "wide",
+    "tall",
+    "brow",
+    "bcol",
+    "rrows",
+    "rcols",
+    "colors",
+    "patterns"
+  ],
+  "foreground_freeze": [
+    1,
+    2
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "kwargs": {
+    "num_sprites": {
+      "type": "int",
+      "range": [
+        1,
+        6
+      ]
+    },
+    "num_clones": {
+      "type": "int",
+      "range": [
+        1,
+        30
+      ]
+    },
+    "sprite_size": {
+      "type": "int",
+      "range": [
+        5,
+        20
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "rows",
+    "cols",
+    "idxs",
+    "colors",
+    "brows",
+    "bcols",
+    "rotates"
+  ]
+}

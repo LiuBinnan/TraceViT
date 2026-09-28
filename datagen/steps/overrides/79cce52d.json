@@ -1,0 +1,21 @@
+{
+  "kwargs": {
+    "msize": {
+      "type": "int",
+      "range": [
+        5,
+        8
+      ]
+    }
+  },
+  "exclude": [
+    "hoff",
+    "voff",
+    "colors"
+  ],
+  "foreground_freeze": [
+    2,
+    6,
+    7
+  ]
+}

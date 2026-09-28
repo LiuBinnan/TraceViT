@@ -1,0 +1,21 @@
+{
+  "foreground_freeze": [
+    8
+  ],
+  "kwargs": {
+    "cell_count": {
+      "type": "int",
+      "range": [
+        0,
+        900
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    }
+  }
+}

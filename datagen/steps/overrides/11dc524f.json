@@ -1,0 +1,23 @@
+{
+  "exclude": [
+    "wide",
+    "tall",
+    "brow",
+    "bcol",
+    "angle",
+    "colors"
+  ],
+  "foreground_freeze": [
+    5
+  ],
+  "kwargs": {
+    "size": {
+      "type": "int",
+      "range": [
+        11,
+        22
+      ]
+    }
+  },
+  "foreground_recolor": "on"
+}

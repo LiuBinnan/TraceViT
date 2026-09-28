@@ -1,0 +1,29 @@
+{
+  "kwargs": {
+    "width": {
+      "type": "int",
+      "range": [
+        4,
+        30
+      ]
+    },
+    "stripe_count": {
+      "type": "int",
+      "range": [
+        1,
+        9
+      ]
+    },
+    "density": {
+      "type": "int",
+      "range": [
+        5,
+        50
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols"
+  ]
+}

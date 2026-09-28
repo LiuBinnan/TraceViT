@@ -1,0 +1,19 @@
+{
+  "kwargs": {
+    "glattice": {
+      "type": "int",
+      "range": [
+        4,
+        7
+      ]
+    }
+  },
+  "exclude": [
+    "prows",
+    "pcols",
+    "colors"
+  ],
+  "foreground_freeze": [
+    8
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "kwargs": {
+    "gsize": {
+      "type": "int",
+      "range": [
+        12,
+        24
+      ]
+    },
+    "flop": {
+      "type": "choice",
+      "choices": [
+        true,
+        false
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols",
+    "lengths",
+    "colors",
+    "prow",
+    "pcol",
+    "shown"
+  ],
+  "foreground_freeze": []
+}

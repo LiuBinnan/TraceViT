@@ -1,0 +1,39 @@
+{
+  "kwargs": {
+    "out_height": {
+      "type": "int",
+      "range": [
+        2,
+        4
+      ]
+    },
+    "out_width": {
+      "type": "int",
+      "range": [
+        2,
+        4
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols",
+    "idxs",
+    "colors",
+    "midrows",
+    "midcols",
+    "size",
+    "minisize",
+    "height",
+    "width",
+    "markrow",
+    "markcol"
+  ]
+}

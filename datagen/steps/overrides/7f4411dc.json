@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "size",
+    "height",
+    "width",
+    "rows",
+    "cols",
+    "boxrows",
+    "boxcols",
+    "wides",
+    "talls"
+  ]
+}

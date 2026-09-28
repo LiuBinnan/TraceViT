@@ -1,0 +1,35 @@
+{
+  "kwargs": {
+    "linecount": {
+      "type": "int",
+      "range": [
+        1,
+        6
+      ]
+    },
+    "rowcount": {
+      "type": "int",
+      "range": [
+        1,
+        30
+      ]
+    },
+    "dotcount": {
+      "type": "int",
+      "range": [
+        1,
+        9
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "linecols",
+    "linecolors",
+    "rows",
+    "cols",
+    "colors",
+    "xpose"
+  ]
+}

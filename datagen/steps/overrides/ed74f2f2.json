@@ -1,0 +1,15 @@
+{
+  "kwargs": {
+    "psize": {
+      "type": "int",
+      "range": [
+        3,
+        6
+      ]
+    }
+  },
+  "exclude": [
+    "shape"
+  ],
+  "foreground_recolor": "off"
+}

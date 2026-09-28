@@ -1,0 +1,25 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "wides",
+    "talls",
+    "brows",
+    "bcols",
+    "trims"
+  ],
+  "kwargs": {
+    "count": {
+      "type": "int",
+      "range": [
+        1,
+        3
+      ]
+    }
+  },
+  "foreground_freeze": [
+    4,
+    8
+  ],
+  "foreground_recolor": "off"
+}

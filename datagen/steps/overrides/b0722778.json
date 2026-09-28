@@ -1,0 +1,9 @@
+{
+  "exclude": [
+    "xforms",
+    "color_dict",
+    "ins",
+    "outs"
+  ],
+  "foreground_recolor": "off"
+}

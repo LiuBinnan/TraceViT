@@ -1,0 +1,31 @@
+{
+  "kwargs": {
+    "density": {
+      "type": "choice",
+      "choices": [
+        0.15,
+        0.2,
+        0.25,
+        0.3
+      ]
+    },
+    "flop": {
+      "type": "choice",
+      "choices": [
+        true,
+        false
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "colors",
+    "rows",
+    "cols",
+    "fgcolor"
+  ],
+  "foreground_freeze": [
+    0,
+    8
+  ]
+}

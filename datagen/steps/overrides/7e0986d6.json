@@ -1,0 +1,54 @@
+{
+  "kwargs": {
+    "width": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    },
+    "height": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    },
+    "num_boxes": {
+      "type": "int",
+      "range": [
+        1,
+        5
+      ]
+    },
+    "num_box_colors": {
+      "type": "int",
+      "range": [
+        1,
+        5
+      ]
+    },
+    "num_noise_colors": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    },
+    "noise_count": {
+      "type": "int",
+      "range": [
+        1,
+        100
+      ]
+    }
+  },
+  "include_only": [
+    "width",
+    "height",
+    "num_boxes",
+    "num_box_colors",
+    "num_noise_colors",
+    "noise_count"
+  ]
+}

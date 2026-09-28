@@ -1,0 +1,48 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        2,
+        6
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        2,
+        30
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        3,
+        9
+      ]
+    },
+    "density": {
+      "type": "int",
+      "range": [
+        1,
+        149
+      ]
+    },
+    "change_count": {
+      "type": "int",
+      "range": [
+        1,
+        150
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "basicrows",
+    "basiccols",
+    "weirdrows",
+    "weirdcols",
+    "colors",
+    "weird"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "kwargs": {
+    "row_spacing": {
+      "type": "int",
+      "range": [
+        2,
+        5
+      ]
+    },
+    "col_spacing": {
+      "type": "int",
+      "range": [
+        2,
+        5
+      ]
+    },
+    "break_count": {
+      "type": "int",
+      "range": [
+        0,
+        130
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "height",
+    "width",
+    "minisize",
+    "rows",
+    "cols",
+    "color"
+  ],
+  "foreground_freeze": [
+    3,
+    4
+  ]
+}

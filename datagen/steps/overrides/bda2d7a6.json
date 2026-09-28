@@ -1,0 +1,10 @@
+{
+  "exclude": [
+    "half",
+    "colors",
+    "hheight",
+    "hwidth",
+    "nrings",
+    "ncolors"
+  ]
+}

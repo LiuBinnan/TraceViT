@@ -1,0 +1,25 @@
+{
+  "allow_identity_output": true,
+  "kwargs": {
+    "nrows": {
+      "type": "int",
+      "range": [
+        3,
+        8
+      ]
+    },
+    "half": {
+      "type": "int",
+      "range": [
+        3,
+        5
+      ]
+    }
+  },
+  "exclude": [
+    "cols"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

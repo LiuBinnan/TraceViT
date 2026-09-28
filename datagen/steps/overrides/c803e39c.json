@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "size",
+    "inners",
+    "outers"
+  ],
+  "foreground_freeze": [
+    1,
+    2,
+    5
+  ],
+  "kwargs": {}
+}

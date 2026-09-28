@@ -1,0 +1,10 @@
+{
+  "exclude": [
+    "size",
+    "sky",
+    "roof",
+    "flop"
+  ],
+  "foreground_recolor": "off",
+  "background_recolor": "off"
+}

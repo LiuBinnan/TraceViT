@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "wide",
+    "tall",
+    "bgcolor",
+    "cdirs",
+    "colors"
+  ],
+  "foreground_freeze": [
+    0,
+    4
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        5,
+        30
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        8,
+        30
+      ]
+    },
+    "noise_count": {
+      "type": "int",
+      "range": [
+        1,
+        445
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "rows",
+    "cols",
+    "row",
+    "col",
+    "density"
+  ]
+}

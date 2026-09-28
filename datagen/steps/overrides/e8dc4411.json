@@ -1,0 +1,45 @@
+{
+  "kwargs": {
+    "width": {
+      "type": "int",
+      "range": [
+        9,
+        30
+      ]
+    },
+    "height": {
+      "type": "int",
+      "range": [
+        9,
+        30
+      ]
+    },
+    "length": {
+      "type": "int",
+      "range": [
+        3,
+        14
+      ]
+    },
+    "cell_count": {
+      "type": "int",
+      "range": [
+        2,
+        98
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols",
+    "rdiff",
+    "cdiff",
+    "brow",
+    "bcol",
+    "prow",
+    "pcol",
+    "flip",
+    "xpose",
+    "step"
+  ]
+}

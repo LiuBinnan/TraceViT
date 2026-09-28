@@ -1,0 +1,10 @@
+{
+  "exclude": [
+    "size",
+    "vals"
+  ],
+  "foreground_freeze": [
+    0
+  ],
+  "background_recolor": "any"
+}

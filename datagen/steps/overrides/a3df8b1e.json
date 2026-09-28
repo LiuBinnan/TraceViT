@@ -1,0 +1,32 @@
+{
+  "kwargs": {
+    "width": {
+      "type": "int",
+      "range": [
+        2,
+        16
+      ]
+    },
+    "height": {
+      "type": "int",
+      "range": [
+        16,
+        30
+      ]
+    },
+    "num_lines": {
+      "type": "int",
+      "range": [
+        1,
+        4
+      ]
+    },
+    "transform": {
+      "type": "int",
+      "range": [
+        0,
+        7
+      ]
+    }
+  }
+}

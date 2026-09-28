@@ -1,0 +1,12 @@
+{
+  "exclude": [
+    "wide",
+    "tall",
+    "mult",
+    "offset",
+    "colors",
+    "bcolor"
+  ],
+  "foreground_freeze": [],
+  "background_recolor": "any"
+}

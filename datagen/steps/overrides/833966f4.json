@@ -1,0 +1,16 @@
+{
+  "kwargs": {
+    "length": {
+      "type": "choice",
+      "choices": [
+        5,
+        7,
+        9
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": []
+}

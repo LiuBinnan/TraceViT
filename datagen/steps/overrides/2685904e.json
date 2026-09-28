@@ -1,0 +1,18 @@
+{
+  "kwargs": {
+    "subset_size": {
+      "type": "int",
+      "range": [
+        2,
+        8
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": [
+    0,
+    5
+  ]
+}

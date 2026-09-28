@@ -1,0 +1,54 @@
+{
+  "kwargs": {
+    "canvas_height": {
+      "type": "int",
+      "range": [
+        3,
+        30
+      ]
+    },
+    "canvas_width": {
+      "type": "int",
+      "range": [
+        6,
+        30
+      ]
+    },
+    "miniheight": {
+      "type": "int",
+      "range": [
+        1,
+        15
+      ]
+    },
+    "miniwidth": {
+      "type": "int",
+      "range": [
+        1,
+        10
+      ]
+    },
+    "num_cells": {
+      "type": "int",
+      "range": [
+        1,
+        150
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        2,
+        8
+      ]
+    }
+  },
+  "include_only": [
+    "canvas_height",
+    "canvas_width",
+    "miniheight",
+    "miniwidth",
+    "num_cells",
+    "num_colors"
+  ]
+}

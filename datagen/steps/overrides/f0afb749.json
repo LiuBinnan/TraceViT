@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "size",
+    "rows",
+    "cols",
+    "color"
+  ],
+  "foreground_freeze": [
+    0,
+    1
+  ],
+  "background_recolor": "off"
+}

@@ -1,0 +1,20 @@
+{
+  "kwargs": {
+    "ncolors": {
+      "type": "int",
+      "range": [
+        2,
+        4
+      ]
+    }
+  },
+  "exclude": [
+    "lefts",
+    "rights",
+    "colors"
+  ],
+  "foreground_freeze": [
+    8
+  ],
+  "background_recolor": "any"
+}

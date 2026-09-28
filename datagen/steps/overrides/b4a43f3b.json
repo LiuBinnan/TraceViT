@@ -1,0 +1,19 @@
+{
+  "kwargs": {
+    "lsize": {
+      "type": "int",
+      "range": [
+        6,
+        9
+      ]
+    }
+  },
+  "exclude": [
+    "colors",
+    "pattern"
+  ],
+  "foreground_freeze": [
+    2,
+    5
+  ]
+}

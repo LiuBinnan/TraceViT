@@ -1,0 +1,8 @@
+{
+  "exclude": [
+    "size",
+    "height",
+    "width",
+    "colors"
+  ]
+}

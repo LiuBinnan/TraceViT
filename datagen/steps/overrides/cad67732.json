@@ -1,0 +1,9 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "size",
+    "diag",
+    "offdiag"
+  ],
+  "foreground_freeze": []
+}

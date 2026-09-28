@@ -1,0 +1,17 @@
+{
+  "exclude": [
+    "size",
+    "brows",
+    "bcols",
+    "angles",
+    "colors"
+  ],
+  "foreground_freeze": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "foreground_recolor": "off",
+  "background_recolor": "any"
+}

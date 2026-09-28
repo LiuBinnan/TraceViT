@@ -1,0 +1,39 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        6,
+        30
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        6,
+        30
+      ]
+    },
+    "line_count": {
+      "type": "int",
+      "range": [
+        1,
+        7
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        1,
+        6
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "diag",
+    "rows",
+    "cols",
+    "color"
+  ]
+}

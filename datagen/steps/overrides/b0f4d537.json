@@ -1,0 +1,18 @@
+{
+  "exclude": [
+    "height",
+    "cdirs",
+    "ivals",
+    "ovals",
+    "colors",
+    "flop",
+    "erows",
+    "ecols",
+    "ecolors",
+    "egrids"
+  ],
+  "foreground_freeze": [
+    4,
+    5
+  ]
+}

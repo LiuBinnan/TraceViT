@@ -1,0 +1,10 @@
+{
+  "exclude": [
+    "vals"
+  ],
+  "foreground_freeze": [
+    0
+  ],
+  "kwargs": {},
+  "background_recolor": "off"
+}

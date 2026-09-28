@@ -1,0 +1,15 @@
+{
+  "exclude": [
+    "size",
+    "height",
+    "width",
+    "spacings",
+    "colors",
+    "boxcolor",
+    "boxlength",
+    "boxheight",
+    "boxwidth",
+    "boxrow",
+    "boxcol"
+  ]
+}

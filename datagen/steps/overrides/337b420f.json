@@ -1,0 +1,26 @@
+{
+  "kwargs": {
+    "segments": {
+      "type": "int",
+      "range": [
+        7,
+        14
+      ]
+    },
+    "psize": {
+      "type": "int",
+      "range": [
+        4,
+        8
+      ]
+    }
+  },
+  "exclude": [
+    "colors",
+    "extra_color"
+  ],
+  "foreground_freeze": [
+    0,
+    8
+  ]
+}

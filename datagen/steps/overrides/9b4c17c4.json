@@ -1,0 +1,16 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "bwides",
+    "btalls",
+    "brows",
+    "bcols",
+    "dwides",
+    "dtalls",
+    "drows",
+    "dcols",
+    "groups"
+  ],
+  "foreground_recolor": "off"
+}

@@ -1,0 +1,10 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "colors"
+  ],
+  "foreground_freeze": [
+    7
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kwargs": {
+    "cvalue": {
+      "type": "int",
+      "range": [
+        1,
+        9
+      ]
+    },
+    "tsize": {
+      "type": "int",
+      "range": [
+        2,
+        4
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": [
+    2
+  ]
+}

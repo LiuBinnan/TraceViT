@@ -1,0 +1,26 @@
+{
+  "kwargs": {
+    "freq": {
+      "type": "int",
+      "range": [
+        1,
+        6
+      ]
+    },
+    "marker_count": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": [
+    6,
+    8
+  ],
+  "background_recolor": "any"
+}

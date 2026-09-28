@@ -1,0 +1,12 @@
+{
+  "exclude": [
+    "minisize",
+    "megasize",
+    "pattern",
+    "dots"
+  ],
+  "foreground_freeze": [
+    0
+  ],
+  "background_recolor": "any"
+}

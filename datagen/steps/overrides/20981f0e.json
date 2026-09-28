@@ -1,0 +1,25 @@
+{
+  "kwargs": {
+    "complete_count": {
+      "type": "int",
+      "range": [
+        0,
+        6
+      ]
+    }
+  },
+  "exclude": [
+    "wide",
+    "tall",
+    "left_padding",
+    "right_padding",
+    "top_padding",
+    "bottom_padding",
+    "missing",
+    "brows",
+    "bcols"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

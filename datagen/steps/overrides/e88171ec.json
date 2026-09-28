@@ -1,0 +1,14 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "size",
+    "wide",
+    "tall",
+    "brow",
+    "bcol",
+    "colors"
+  ],
+  "foreground_freeze": [
+    8
+  ]
+}

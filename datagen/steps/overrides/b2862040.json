@@ -1,0 +1,55 @@
+{
+  "kwargs": {
+    "width": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    },
+    "height": {
+      "type": "int",
+      "range": [
+        10,
+        30
+      ]
+    },
+    "num_boxes": {
+      "type": "int",
+      "range": [
+        2,
+        18
+      ]
+    },
+    "palette_size": {
+      "type": "int",
+      "range": [
+        1,
+        8
+      ]
+    },
+    "bg_color": {
+      "type": "choice",
+      "choices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ]
+    }
+  },
+  "exclude": [
+    "rows",
+    "cols",
+    "colors",
+    "markers"
+  ],
+  "foreground_freeze": [
+    8
+  ]
+}

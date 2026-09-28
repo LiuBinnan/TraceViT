@@ -1,0 +1,19 @@
+{
+  "exclude": [
+    "size",
+    "height",
+    "width",
+    "rows",
+    "cols",
+    "wides",
+    "talls",
+    "grows",
+    "gcols",
+    "num_boxes",
+    "num_colors",
+    "object_colors"
+  ],
+  "foreground_freeze": [
+    3
+  ]
+}

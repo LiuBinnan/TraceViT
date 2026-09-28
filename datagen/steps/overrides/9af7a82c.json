@@ -1,0 +1,15 @@
+{
+  "foreground_freeze": [
+    0
+  ],
+  "background_recolor": "off",
+  "kwargs": {
+    "num_colors": {
+      "type": "int",
+      "range": [
+        2,
+        9
+      ]
+    }
+  }
+}

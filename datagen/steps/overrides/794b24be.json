@@ -1,0 +1,16 @@
+{
+  "foreground_freeze": [
+    0,
+    2
+  ],
+  "exclude": [
+    "size",
+    "rows",
+    "cols",
+    "height",
+    "width",
+    "noise_count",
+    "noise_ncolors"
+  ],
+  "background_recolor": "off"
+}

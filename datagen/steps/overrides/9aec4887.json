@@ -1,0 +1,35 @@
+{
+  "kwargs": {
+    "output_height": {
+      "type": "int",
+      "range": [
+        4,
+        13
+      ]
+    },
+    "output_width": {
+      "type": "int",
+      "range": [
+        4,
+        13
+      ]
+    },
+    "sprite_removals": {
+      "type": "int",
+      "range": [
+        1,
+        60
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "spriterow",
+    "spritecol",
+    "brow",
+    "bcol",
+    "rows",
+    "cols"
+  ]
+}

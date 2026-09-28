@@ -1,0 +1,40 @@
+{
+  "kwargs": {
+    "canvas_width": {
+      "type": "int",
+      "range": [
+        12,
+        20
+      ]
+    },
+    "canvas_height": {
+      "type": "int",
+      "range": [
+        14,
+        26
+      ]
+    },
+    "half_width": {
+      "type": "int",
+      "range": [
+        2,
+        4
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "wide",
+    "tall",
+    "lrow",
+    "lcol",
+    "brow",
+    "bcol",
+    "left",
+    "right",
+    "colors",
+    "pattern"
+  ],
+  "foreground_freeze": []
+}

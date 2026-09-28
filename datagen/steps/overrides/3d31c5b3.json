@@ -1,0 +1,17 @@
+{
+  "exclude": [
+    "top",
+    "upper",
+    "lower",
+    "bottom",
+    "width",
+    "height"
+  ],
+  "foreground_freeze": [
+    2,
+    4,
+    5,
+    8
+  ],
+  "foreground_recolor": "off"
+}

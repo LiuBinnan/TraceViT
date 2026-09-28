@@ -1,0 +1,25 @@
+{
+  "kwargs": {
+    "sprite_h": {
+      "type": "int",
+      "range": [
+        1,
+        14
+      ]
+    },
+    "sprite_w": {
+      "type": "int",
+      "range": [
+        1,
+        14
+      ]
+    }
+  },
+  "exclude": [
+    "same",
+    "diff",
+    "idx",
+    "color",
+    "size"
+  ]
+}

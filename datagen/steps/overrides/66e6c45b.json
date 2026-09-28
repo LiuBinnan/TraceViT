@@ -1,0 +1,40 @@
+{
+  "kwargs": {
+    "size": {
+      "type": "choice",
+      "choices": [
+        4,
+        6,
+        8
+      ]
+    },
+    "height": {
+      "type": "choice",
+      "choices": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ]
+    },
+    "width": {
+      "type": "choice",
+      "choices": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "kwargs": {
+    "gsize": {
+      "type": "int",
+      "range": [
+        12,
+        22
+      ]
+    }
+  },
+  "exclude": [
+    "sizes",
+    "brows",
+    "bcols",
+    "evens",
+    "odds"
+  ],
+  "foreground_freeze": [
+    0
+  ],
+  "background_recolor": "off"
+}

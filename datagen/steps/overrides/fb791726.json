@@ -1,0 +1,10 @@
+{
+  "exclude": [
+    "size",
+    "prows",
+    "pcols"
+  ],
+  "foreground_freeze": [
+    3
+  ]
+}

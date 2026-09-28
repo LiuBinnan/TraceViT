@@ -1,0 +1,17 @@
+{
+  "kwargs": {
+    "target_lines": {
+      "type": "int",
+      "range": [
+        1,
+        2
+      ]
+    }
+  },
+  "exclude": [
+    "colors"
+  ],
+  "foreground_freeze": [
+    0
+  ]
+}

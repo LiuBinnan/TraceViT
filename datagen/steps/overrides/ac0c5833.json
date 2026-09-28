@@ -1,0 +1,14 @@
+{
+  "exclude": [
+    "size",
+    "length",
+    "shown",
+    "brows",
+    "bcols",
+    "angles",
+    "pattern",
+    "extra_rows",
+    "extra_cols"
+  ],
+  "foreground_freeze": []
+}

@@ -1,0 +1,47 @@
+{
+  "kwargs": {
+    "wide": {
+      "type": "int",
+      "range": [
+        2,
+        10
+      ]
+    },
+    "tall": {
+      "type": "int",
+      "range": [
+        2,
+        10
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        2,
+        30
+      ]
+    },
+    "height": {
+      "type": "int",
+      "range": [
+        2,
+        30
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        2,
+        9
+      ]
+    }
+  },
+  "exclude": [
+    "patches",
+    "lengths",
+    "depths",
+    "rowoffset",
+    "coloffset",
+    "size"
+  ]
+}

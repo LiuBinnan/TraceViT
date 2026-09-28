@@ -1,0 +1,33 @@
+{
+  "kwargs": {
+    "height": {
+      "type": "int",
+      "range": [
+        6,
+        30
+      ]
+    },
+    "width": {
+      "type": "int",
+      "range": [
+        6,
+        30
+      ]
+    }
+  },
+  "exclude": [
+    "size",
+    "minisize",
+    "rows",
+    "cols",
+    "row",
+    "col",
+    "color",
+    "flip",
+    "xpose"
+  ],
+  "foreground_freeze": [
+    2,
+    3
+  ]
+}

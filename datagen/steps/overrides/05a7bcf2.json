@@ -1,0 +1,23 @@
+{
+  "kwargs": {
+    "num_groups": {
+      "type": "int",
+      "range": [
+        2,
+        10
+      ]
+    }
+  },
+  "exclude": [
+    "yrows",
+    "ycols",
+    "ytalls",
+    "brow",
+    "drow",
+    "dtalls"
+  ],
+  "foreground_freeze": [
+    3,
+    4
+  ]
+}

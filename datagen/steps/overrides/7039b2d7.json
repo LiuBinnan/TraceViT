@@ -1,0 +1,11 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "size",
+    "rows",
+    "cols"
+  ],
+  "foreground_freeze": [],
+  "background_recolor": "any",
+  "allow_const_output": true
+}

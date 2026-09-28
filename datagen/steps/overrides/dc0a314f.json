@@ -1,0 +1,16 @@
+{
+  "exclude": [
+    "size",
+    "minisize",
+    "row",
+    "col",
+    "colors",
+    "miniheight",
+    "miniwidth",
+    "num_colors",
+    "density"
+  ],
+  "foreground_freeze": [
+    3
+  ]
+}

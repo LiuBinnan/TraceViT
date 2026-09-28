@@ -1,0 +1,20 @@
+{
+  "kwargs": {
+    "num_shapes": {
+      "type": "int",
+      "range": [
+        2,
+        4
+      ]
+    }
+  },
+  "exclude": [
+    "width",
+    "height",
+    "colors"
+  ],
+  "foreground_freeze": [
+    6
+  ],
+  "background_recolor": "any"
+}

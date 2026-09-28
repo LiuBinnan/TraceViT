@@ -1,0 +1,26 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "pcols",
+    "colors"
+  ],
+  "kwargs": {
+    "num_lines": {
+      "type": "int",
+      "range": [
+        2,
+        12
+      ]
+    }
+  },
+  "foreground_freeze": [
+    2,
+    3,
+    4,
+    6,
+    7,
+    8
+  ],
+  "foreground_recolor": "off"
+}

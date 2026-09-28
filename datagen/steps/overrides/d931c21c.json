@@ -1,0 +1,12 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "colors"
+  ],
+  "allow_identity_output": true,
+  "foreground_freeze": [
+    2,
+    3
+  ]
+}

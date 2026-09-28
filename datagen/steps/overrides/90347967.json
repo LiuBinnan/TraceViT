@@ -1,0 +1,14 @@
+{
+  "exclude": [
+    "width",
+    "height",
+    "prow",
+    "pcol",
+    "drs",
+    "dcs",
+    "colors"
+  ],
+  "foreground_freeze": [
+    5
+  ]
+}

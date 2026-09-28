@@ -1,0 +1,9 @@
+{
+  "kwargs": {},
+  "exclude": [
+    "minisize",
+    "megasize",
+    "colors"
+  ],
+  "foreground_freeze": []
+}

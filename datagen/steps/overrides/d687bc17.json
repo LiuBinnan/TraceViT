@@ -1,0 +1,25 @@
+{
+  "kwargs": {
+    "dot_count": {
+      "type": "int",
+      "range": [
+        1,
+        120
+      ]
+    },
+    "noise_count": {
+      "type": "int",
+      "range": [
+        0,
+        400
+      ]
+    },
+    "num_colors": {
+      "type": "int",
+      "range": [
+        5,
+        10
+      ]
+    }
+  }
+}
